@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+orderly-backend/node_modules/
+orderly_frontend/node_modules/
+
+# Build folders
+dist/
+dist-ssr/
+
+# Logs
+logs
+*.log
+
+# Environment files
+.env
+.env.*
+orderly-backend/.env
+orderly_frontend/.env
+
+# OS / Editor
+.vscode/
+.idea/
+.DS_Store
