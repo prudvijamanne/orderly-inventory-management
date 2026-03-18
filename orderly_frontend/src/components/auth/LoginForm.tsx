@@ -107,24 +107,6 @@ const LoginForm: React.FC = () => {
               </Button>
             </form>
 
-            {/* Demo credentials */}
-            <div className="mt-6 pt-6 border-t border-border">
-              <p className="text-sm text-muted-foreground mb-3">Demo Credentials:</p>
-              <div className="space-y-2 text-xs">
-                <div className="flex justify-between items-center p-2 bg-muted rounded-md">
-                  <span className="font-medium">Admin:</span>
-                  <code className="text-muted-foreground">admin@example.com / admin123</code>
-                </div>
-                <div className="flex justify-between items-center p-2 bg-muted rounded-md">
-                  <span className="font-medium">Manager:</span>
-                  <code className="text-muted-foreground">manager@example.com / manager123</code>
-                </div>
-                <div className="flex justify-between items-center p-2 bg-muted rounded-md">
-                  <span className="font-medium">Staff:</span>
-                  <code className="text-muted-foreground">staff@example.com / staff123</code>
-                </div>
-              </div>
-            </div>
           </CardContent>
         </Card>
       </div>

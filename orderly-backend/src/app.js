@@ -11,13 +11,17 @@ const errorHandler = require('./middleware/errorHandler');
 
 const app = express();
 
-// ✅ CORS MUST come first
+// ✅ Proper CORS (ONLY ONCE)
 app.use(cors({
-  origin: 'http://localhost:8080',
+  origin: [
+    "http://localhost:5173", // local dev
+    "http://localhost:8080",
+    "https://orderly-inventory-management-deploy-gyrkomkgz.vercel.app" // production
+  ],
   credentials: true
 }));
 
-// ✅ BODY PARSER
+// ✅ Body parser
 app.use(express.json());
 
 // Routes
